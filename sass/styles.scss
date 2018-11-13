@@ -1,0 +1,162 @@
+@import "./variables";
+
+body {
+    @include body;
+}
+.header {
+    text-align: center;
+
+.site-header{
+    border-bottom:2px solid rgba(128, 128, 128, 0.527);
+    margin-bottom:30px;
+    margin: 10px;
+    padding: 5px 10px 10px;
+     .first-block{
+        width: 40%;
+        display: inline-block;
+   
+}
+.second-block {
+    width: 40%;
+    display: inline-block;
+}
+.header-elem{    
+    text-align: right;
+    padding:3px 30px 3px 0;
+    border-right:2px solid rgba(128, 128, 128, 0.527);
+    margin: 6px 0 6px 0;
+}
+.header-el{    
+    padding:3px 0 3px 30px;
+    margin: 6px 0 6px 0;
+}
+
+.fb-icon {
+    float: right;
+    padding-right: 20px;
+ }
+}
+.navigation-bar {
+    vertical-align: middle;
+    height:75px;
+    
+    .logoIMG{
+        position: absolute;
+        left:30px;
+        height:50px;
+        width:70px;
+    }
+    .menu-options {
+      .menu{
+        padding:0px 25px 0px 25px;
+        border-right:2px solid black;
+        top:10px;
+        position: relative;
+       
+        &:hover {
+            color:red;
+        }
+    }
+}
+ }
+ .search-box {
+     display: block;
+     margin-top: 20px;
+   .search-btn { position:relative;
+    .search-bar{
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 230px;
+        border-bottom: 1px solid black;
+    }
+    .fa-search {
+        position: absolute;
+        right: 2px;
+        color: $black_font;
+    &:before {
+        outline: none;
+     }
+    }
+ }
+}
+}
+
+
+
+.container {
+    width:100%;
+    padding:0;
+    margin-top: 35px;
+    .slider-container{
+        height: 70vh;
+        background-image:url('https://banner2.kisspng.com/20180310/cfe/kisspng-granny-smith-apple-three-color-apples-5aa496eea446b3.9945596315207359826729.jpg');
+     .slider {
+        width:100%;
+        .sliderIMG{
+            width:60vw;
+            height:40vh;
+            margin-bottom:20px;
+        }
+    }
+}
+    
+
+
+//     .products {
+//         text-align: center;
+//         margin:15px;
+//         padding:0;
+//         h6{
+//             font-size: 26px;
+//             color:rgb(19, 158, 19);
+//             padding:25px;
+//         }
+//         .adjust-padding{
+//             padding:0;
+//         }
+//         .productItem {
+//             position: relative;
+//             display: inline-block;
+//             width:300px;
+//             height:320px;
+//             margin:15px;
+//             background: burlywood;
+//             background: linear-gradient(top, #fff 0%, rgba(67, 240, 67, 0.712)100%);
+//             border:1.5px solid rgba(43, 155, 43, 0.712);
+//             border-radius:.5rem;
+//             .itemInfo{
+//                 position: absolute;
+//                 bottom: 25%;
+//                 text-align: center;
+//                 padding:15px;
+//                 background: rgba(214, 205, 205, 0.726);
+//                 height:75%;
+//                 visibility:hidden;
+//                 opacity: 0;
+//                 transition: visibility 0s, opacity 0.5s linear;
+//                 cursor: pointer;
+//                 &:hover {
+//                     visibility: visible;
+//                     opacity:1;
+//                     display:block;
+//                 }
+
+//                 .itemDescription{
+//                     margin-bottom:40px;
+//                 } 
+//             }
+//             img{
+//                 border-style: 1px solid rgb(3, 70, 14);
+//                 height:250px;
+//             }
+//             .itemName {
+//                 h3{
+//                     padding:10px 0 70px 0;
+//                     color: rgb(19, 158, 19);
+//                 }
+//             }
+//         }
+//     }
+ }

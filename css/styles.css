@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px; }
+
+.header {
+  text-align: center; }
+  .header .site-header {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.527);
+    margin-bottom: 30px;
+    margin: 10px;
+    padding: 5px 10px 10px; }
+    .header .site-header .first-block {
+      width: 40%;
+      display: inline-block; }
+    .header .site-header .second-block {
+      width: 40%;
+      display: inline-block; }
+    .header .site-header .header-elem {
+      text-align: right;
+      padding: 3px 30px 3px 0;
+      border-right: 2px solid rgba(128, 128, 128, 0.527);
+      margin: 6px 0 6px 0; }
+    .header .site-header .header-el {
+      padding: 3px 0 3px 30px;
+      margin: 6px 0 6px 0; }
+    .header .site-header .fb-icon {
+      float: right;
+      padding-right: 20px; }
+  .header .navigation-bar {
+    vertical-align: middle;
+    height: 75px; }
+    .header .navigation-bar .logoIMG {
+      position: absolute;
+      left: 30px;
+      height: 50px;
+      width: 70px; }
+    .header .navigation-bar .menu-options .menu {
+      padding: 0px 25px 0px 25px;
+      border-right: 2px solid black;
+      top: 10px;
+      position: relative; }
+      .header .navigation-bar .menu-options .menu:hover {
+        color: red; }
+  .header .search-box {
+    display: block;
+    margin-top: 20px; }
+    .header .search-box .search-btn {
+      position: relative; }
+      .header .search-box .search-btn .search-bar {
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 230px;
+        border-bottom: 1px solid black; }
+      .header .search-box .search-btn .fa-search {
+        position: absolute;
+        right: 2px;
+        color: #303030; }
+        .header .search-box .search-btn .fa-search:before {
+          outline: none; }
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin-top: 35px; }
+  .container .slider-container {
+    height: 70vh;
+    background-image: url("https://banner2.kisspng.com/20180310/cfe/kisspng-granny-smith-apple-three-color-apples-5aa496eea446b3.9945596315207359826729.jpg"); }
+    .container .slider-container .slider {
+      width: 100%; }
+      .container .slider-container .slider .sliderIMG {
+        width: 60vw;
+        height: 40vh;
+        margin-bottom: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

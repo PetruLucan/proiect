@@ -1,0 +1,22 @@
+@mixin body {
+margin: 0;
+padding: 0;
+text-transform: uppercase;
+background-color: $second_color;
+font-family: $font_main;
+font-size: $font_size;
+}
+
+//background-colors
+$main_color: green;
+$second_color: white;
+
+//font-colors
+$black_font: #303030;
+$red_font: #c42526;
+
+
+$font_secondary:"Walter Turncoat", cursive;
+$font_main:  'Roboto', sans-serif;
+$font_size: 20px;
+$font_weight: 300;

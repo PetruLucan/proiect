@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./libraries/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./libraries/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <span class="header-one">Contul Meu
+            <i class="fas fa-user-tie"></i>
+        </span>
+        <span class="header-two">Informatii</span>
+        <span class="header-three">Cosul Meu
+            <i class="fas fa-cart-arrow-down"></i>
+        </span>
+        <span class="header-four">190.00 lei</span>
+        <i class="fab fa-facebook-square"></i>
+    </header>
+
+    <nav>
+        <img class="logoIMG img-responsive" src="http://www.suplivera.ro/assets/images/logo.png">
+        <span class="menu">Acasa</span>
+        <span class="menu">Despre Noi</span>
+        <span class="menu">Produse</span>
+        <span style="border:none;" class="menu">Contact</span>
+
+    </nav>
+    <div class="search-box">
+        <input type="text" name="search" value="" autocomplete="off" class='search-bar'
+        id="my-input" onkeyup="searchFunction()">
+        <a class="search-btn" href="#">
+            <i class="fa fa-search"></i>
+        </a>
+    </div>
+
+
+    <div class="container">
+
+        <!-- <div class="slider">
+            <div>
+                <img class="sliderIMG" alt="loading" src="https://previews.123rf.com/images/seralexvi/seralexvi1505/seralexvi150500037/40705189-healthy-food-background-collection-with-color-fruits-berries-and-vegetables.jpg">
+            </div>
+            <div>
+                <img class="sliderIMG" src="https://www.healthyfood.co.nz/wp-content/uploads/2017/12/Get-well-fast.jpg">
+            </div>
+            <div>
+                <img class="sliderIMG" src="https://dv90lhmnvdivt.cloudfront.net/2018/01/Mere-Golden.jpg">
+            </div>
+        </div> -->
+
+        <div class="products row">
+
+            <h6>Produse Noi</h6>
+
+            <!-- primu -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 adjust-padding">
+                <div class="productItem">
+                    <div class="itemIMG">
+                        <img src="photos/photo1.png">
+                    </div>
+                    <div class="itemInfo">
+                        <div>
+                            <h3>Anti-Relax</h3>
+                        </div>
+                        <div class="itemDescription">
+                            Contribuie la mentinerea mobilitatii si flexibilitatii articulatiilor.
+                        </div>
+                    </div>
+                    <div class="itemName">
+                        <h3>Anti-Relax</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- al doilea -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 adjust-padding">
+                <div class="productItem">
+                    <div class="itemIMG">
+                        <img src="photos/photo2.png">
+                    </div>
+                    <div class="itemInfo">
+                        <div>
+                            <h3>Adrenal Vitality</h3>
+                        </div>
+                        <div class="itemDescription">
+                            Reduce efectele provocate de stres si optimizeaza sistemul imunitar.
+                        </div>
+                    </div>
+                    <div class="itemName">
+                        <h3>Adrenal Vitality</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- al treilea -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 adjust-padding">
+                <div class="productItem">
+                    <div class="itemIMG">
+                        <img src="photos/photo3.png">
+                    </div>
+                    <div class="itemInfo">
+                        <div>
+                            <h3>Creatine Complex</h3>
+                        </div>
+                        <div class="itemDescription">
+                            O formula optim dozata pentru sportivi si persoane active ce asigura cresterea
+                            performantelor fizice din timpul exercitiilor fizice de scurta durata si mare
+                            intensitate.
+                        </div>
+                    </div>
+                    <div class="itemName">
+                        <h3>Creatine Complex</h3>
+                    </div>
+                </div>
+            </div>
+            <!--  al patrulea -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 adjust-padding">
+                <div class="productItem">
+                    <div class="itemIMG">
+                        <img src="photos/photo4.png">
+                    </div>
+                    <div class="itemInfo">
+                        <div>
+                            <h3>Cr-Power</h3>
+                        </div>
+                        <div class="itemDescription">
+                            Cr-Power este un supliment alimentar special creat pentru oricine urmareste o crestere a
+                            masei musculare si a fortei brute.
+                        </div>
+                    </div>
+                    <div class="itemName">
+                        <h3>Cr-Power</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="libraries/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- <script src="bootstrap/js/bootstrap.min.js"></script> -->
+
+
+</body>
+
+</html>

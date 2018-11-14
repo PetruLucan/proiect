@@ -1,10 +1,10 @@
  
- $('.slider').slick({
-            autoplay: true,
-            autoplaySpeed: 2000,
-            arrows: false,
+//  $('.slider').slick({
+//             autoplay: false,
+//             autoplaySpeed: 5000,
+//             arrows: true,
 
-        });
+//         });
  
     //    function searchFunction(){
     //     var input, filter, div, item, a, i;

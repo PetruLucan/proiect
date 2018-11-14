@@ -90,16 +90,42 @@ body {
     padding:0;
     margin-top: 35px;
     .slider-container{
-        height: 70vh;
+        height: 130vh;
         background-image:url('https://banner2.kisspng.com/20180310/cfe/kisspng-granny-smith-apple-three-color-apples-5aa496eea446b3.9945596315207359826729.jpg');
      .slider {
         width:100%;
-        .sliderIMG{
-            width:60vw;
-            height:40vh;
-            margin-bottom:20px;
+        .banner{
+            .banner-text{
+                left: 25%;
+                position: relative;
+                display: inline-block;
+                width: 40%;
+                height: 220px;
+                vertical-align: middle;
+                background: rgba(184, 179, 179, 0.678);
+                padding:10px;
+                border-radius:10px;
+                .prod-nou{
+                    color:white;
+                }
+                h2{
+                    color:red
+                }
+                .banner-desc{
+                    color:white;
+                }
+            }
+            .sliderIMG{
+                width:25vw;
+                height:120vh;
+                margin-bottom:20px;
+                display: inline-block;
+                position: relative;
+                left: 15%;
+            }
         }
     }
+}
 }
     
 
@@ -159,4 +185,4 @@ body {
 //             }
 //         }
 //     }
- }
+ 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,45 +10,46 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./libraries/slick/slick.css" />
-        <link rel="stylesheet" type="text/css" href="./libraries/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./libraries/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./libraries/slick/slick-theme.css" />
 
-				
+
     <link type="text/css" href="css/styles.css" rel="stylesheet" />
     <title>Proiect</title>
 </head>
+
 <body>
 
     <header class="header">
         <div class="site-header">
             <div class="first-block">
-            <span class="header-elem">Contul Meu
-                <i class="fas fa-user-tie"></i>
-            </span>
-            <span class="header-el">Informatii</span>
-        </div>
-        <div class="second-block">
-            <span class="header-elem">Cosul Meu
-                <i class="fas fa-cart-arrow-down"></i>
-            </span>
-            <span class="header-el">190.00 lei</span>
-           
-        </div>
-        <i class="fab fa-facebook-square fb-icon"></i>
+                <span class="header-elem">Contul Meu
+                    <i class="fas fa-user-tie"></i>
+                </span>
+                <span class="header-el">Informatii</span>
+            </div>
+            <div class="second-block">
+                <span class="header-elem">Cosul Meu
+                    <i class="fas fa-cart-arrow-down"></i>
+                </span>
+                <span class="header-el">190.00 lei</span>
+
+            </div>
+            <i class="fab fa-facebook-square fb-icon"></i>
         </div>
         <div class="navigation-bar">
             <img class="logoIMG img-responsive" src="http://www.suplivera.ro/assets/images/logo.png">
             <div class="menu-options">
-            <span class="menu">Acasa</span>
-            <span class="menu">Despre Noi</span>
-            <span class="menu">Produse</span>
-            <span class="menu">Contact</span>
-        </div>
-        <div class="search-box">
+                <span class="menu">Acasa</span>
+                <span class="menu">Despre Noi</span>
+                <span class="menu">Produse</span>
+                <span class="menu">Contact</span>
+            </div>
+            <div class="search-box">
                 <a class="search-btn" href="#">
-                <input type="text" name="search" value="" autocomplete="off" class='search-bar'
-                id="my-input" onkeyup="searchFunction()">
-                
+                    <input type="text" name="search" value="" autocomplete="off" class='search-bar' id="my-input"
+                        onkeyup="searchFunction()">
+
                     <i class="fa fa-search"></i>
                 </a>
             </div>
@@ -57,33 +59,38 @@
 
     <div class="container">
         <div class="slider-container">
-        <div class="slider">
-                <div>
-                    <div>text</div>
-                        <img class="sliderIMG" alt="loading" src="https://previews.123rf.com/images/seralexvi/seralexvi1505/seralexvi150500037/40705189-healthy-food-background-collection-with-color-fruits-berries-and-vegetables.jpg">
+            <div class="slider">
+                <div class="banner">
+                    <div class="banner-text" >
+                        <p class="prod-nou">Produs Nou!</p>
+                        <h2>ANTI - RELAX</h2>
+                        <p class="banner-desc">Contribuie la mentinerea mobilitatii si flexibilitatii articulatiilor!</p>
                     </div>
-                    <div>
-                        <img class="sliderIMG" src="https://www.healthyfood.co.nz/wp-content/uploads/2017/12/Get-well-fast.jpg">
-                    </div>
-                    <div>
-                        <img class="sliderIMG" src="https://dv90lhmnvdivt.cloudfront.net/2018/01/Mere-Golden.jpg">
-                    </div>
-                   
+                    <img class="sliderIMG" alt="loading" src="photos/banner1.png">
+                </div>
+                <div class="banner">
+                    <img class="sliderIMG" src="photos/banner2.png">
+                </div>
+                <div class="banner">
+                    <img class="sliderIMG" src="photos/banner3.png.">
+                </div>
+
+            </div>
+
         </div>
-        
-    </div>
     </div>
 
-     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="libraries/slick/slick.min.js"></script>
-        <script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="libraries/slick/slick.min.js"></script>
+    <script>
         $('.slider').slick({
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 1000,
             arrows: false,
 
         });
     </script>
 </body>
+
 </html>
